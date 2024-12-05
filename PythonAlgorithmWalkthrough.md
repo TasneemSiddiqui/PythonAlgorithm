@@ -1,6 +1,5 @@
 <h1>Update a File Through a Python Algorithm</h1>
 
-Algorithm for file updates in Python
 Project description
 Scenario: I am a security professional who is required to regularly update a file that identifies the employees who can access restricted content at a health care company. The contents of the file change based on who is working with personal patient records. Employees are restricted access based on their IP address. There is an allow list for IP addresses that are allowed to sign into the restricted subnetwork, and a remove list that identifies which employees must be removed from this allow list.
 
