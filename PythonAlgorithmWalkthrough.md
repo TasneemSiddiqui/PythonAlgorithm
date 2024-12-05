@@ -6,12 +6,12 @@ At my health care company, restricted content can only be accessed by employees 
 
 
 <h2>Open the file that contains the allow list</h2>
-The name of the file is <code>"allow_list.txt"</code>. We need to assign this file string/path to the variable <code>import_file</code>. Next, we use a <code>with</code> statement to open it. We use the vairable file to store the file while we work with it inside the <code>with</code> statement. To open the file, we use the <code>open()</code> function and pass the parameters <code>import_file</code> and string <code>"r"</code> to indicate that we are opening the file for the purpose of reading it:
+We need to assign the file string/path for <code>"allow_list.txt"</code> to the variable <code>import_file</code>. Next, we use a <code>with</code> statement to open it. We use the vairable file to store the file while we work with it inside the <code>with</code> statement. To open the file, we use the <code>open()</code> function and pass the parameters <code>import_file</code> and string <code>"r"</code> to indicate that we are opening the file for the purpose of reading it:
 
 ![Python01](https://github.com/user-attachments/assets/23d60b84-5ae8-4a90-81a7-ee70bb796bce)
 
 <h2>Read the file contents</h2>
-Next, we use the <code>.read()</code> method to convert the contents of the allow list file into a string so that we can read them. This string will be stored in a variable called <code>ip_addresses</code> and will follow the <code>with</code> header:
+Next, we use the <code>.read()</code> method to convert the contents of the allow list file into a string so that we can read it. This string will be stored in a variable called <code>ip_addresses</code> and will follow the <code>with</code> header:
 
 ![Python02](https://github.com/user-attachments/assets/ad91d032-6d06-45d8-a9e1-d8fb24871c1e)
  
@@ -46,8 +46,7 @@ Finally, we use another <code>with</code> statement and the <code>.write()</code
 <h2>Summary</h2>
 The following is the complete algorithm:
  
+![Python09](https://github.com/user-attachments/assets/3a0ad88c-a96e-4df1-b2f2-1823f95d7e9a)
 
 To summarize, we first imported a file named <code>allow_list.txt</code> and then opened it in order to read it and save the contents into a string variable. Next, we split this string into a list format. We then iterated through each of the IP addresses in this list and checked using a conditional if the IP address is also in the remove list. If so, we removed it from our allow list. Lastly, we converted the list back into string format and reopened <code>allow_list.txt</code> to overwrite its contents with our updated allow list.
-
-![Python09](https://github.com/user-attachments/assets/3a0ad88c-a96e-4df1-b2f2-1823f95d7e9a)
 
