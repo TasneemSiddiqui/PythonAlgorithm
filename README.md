@@ -6,4 +6,4 @@ I am a security professional working at a health care company. As part of my job
 <br/><br/>
 My task is to create an algorithm that uses Python code to check whether the allow list contains any IP addresses identified on the remove list. If so, I should remove those IP addresses from the file containing the allow list.
 
-<h3><a href="https://github.com/TasneemSiddiqui/ApplyFiltersToSqlQueries/blob/main/PythonAlgorithmWalkthrough.md"><b>Python algorithm walkthrough</b></a></h3>
+<h3><a href="https://github.com/TasneemSiddiqui/PythonAlgorithm/blob/main/PythonAlgorithmWalkthrough.md"><b>Python algorithm walkthrough</b></a></h3>
